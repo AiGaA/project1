@@ -53,19 +53,19 @@ nav a:hover {
     transition:.4s ease;
 }
 
-.my-slides {
+.hero {
     position: relative;
     text-align: center;
     color: #EDE0D4;
 }
 
-.my-slides img {
+.hero img {
     width: 100%;
     height:fit-content;
     opacity: 0.8;
 }
 
-.my-slides .my-slides-text {
+.hero .hero-text {
     position: absolute;
     text-align: center;
     top: 50%;
@@ -76,12 +76,12 @@ nav a:hover {
     border-radius: 140px 0;
 }
 
-.my-slides-text h1 {
+.hero-text h1 {
     font-size: 3em;
     padding-bottom: 10px;
 }
 
-.my-slides-text p {
+.hero-text p {
     font-size: 1.2em;
     padding-top: 10px;
 }

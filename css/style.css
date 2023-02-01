@@ -175,13 +175,7 @@ input[type=submit]:hover {
 }
 
 /* Footer for contact and about page */
+
 .site-footer {
     text-align: center;
-    
-}
-
-.site-footer footer {
-    position: absolute;
-    bottom: 10px;
-    left: 45%;
 }

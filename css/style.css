@@ -28,6 +28,7 @@
 body {
     background-color: #EDE0D4;
     font-family: 'Lato', sans-serif;
+    color: #5e361b;
 }
 
 /* Navigation stylings */
@@ -94,12 +95,13 @@ nav a:hover {
 /* Header styles for contact and about pages */
 .page-header {
     text-align: center;
-    padding: 2%;
+    padding: 2em;
+    margin: 2% 0;
 }
 
 .page-text {
     text-align: center;
-    padding: 2%;
+    margin: 2% 0;
 }
 
 /* Home page footer*/
@@ -117,7 +119,7 @@ form {
     background-color: rgba(127, 85, 57, .9);
     width: 40%;
     padding: 2% 3%;
-    margin: 5% auto;
+    margin: auto;
     border-radius: 5px;
 }
 
@@ -176,6 +178,53 @@ input[type=submit]:hover {
 
 /* Footer for contact and about page */
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
 .site-footer {
     text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.site-footer p {
+    padding: 5px 15px;
+}
+
+/*Media queries for adjusting size for responsiveness*/
+@media screen and (max-width: 600px) {
+
+    nav li {
+        font-size: 1em;
+        display: inline-block;
+    }
+
+    .page-header {
+        font-size: 1rem;
+        padding: 1.2em;
+    }
+
+    .page-text {
+        padding: 2% 5%;
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+
+    form {
+        width: 80%;    
+        padding: 5% 3%;
+    }
+
+    .site-footer {
+        padding: 0.6em 0;
+        margin-top: 3.2em;
+        
+    }
 }

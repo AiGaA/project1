@@ -7,8 +7,6 @@ The landing page of this website has slideshow, that I used --webkit-animation t
 
 The landing page has Menu bar at the top with transparent background that allows overflow the image full screen. 
 
----
-
 ![image](https://user-images.githubusercontent.com/25457379/216511092-40446dd1-6b6b-4faf-b49d-466162125b85.png)
 
 The logo was custom-made using canva.com. It was implemented as favicon for the website and can be seen on top of the page when website is open.
@@ -23,8 +21,6 @@ The landing page also has a footer on the bottom and a banner with text for the 
 
 Preview of the landing page
 ![image](https://user-images.githubusercontent.com/25457379/216521116-f7b8ec41-f8be-404a-9bfa-07efc75cd168.png)
-
----
 
 ## About page
 
@@ -50,8 +46,6 @@ Both navigation and footer has been in bold dark color,  to make a contrast with
 
 ![image](https://user-images.githubusercontent.com/25457379/216519184-bafef3ce-cbdd-44d8-8cdb-e059a9ffa4b3.png)
 
----
-
 ## Contact Us
 
 Contact Us page includes a form that would allow user to send an email to us. (No actual email has been set up this to be sent to)
@@ -63,8 +57,6 @@ Each form field is set to their types. Name for name. Email for email and Messag
 The Submit button is set to submit type. When you click on 'Submit', it will redirect to another page - Thank You page. 
 
 ![image](https://user-images.githubusercontent.com/25457379/216520151-1486ede2-11e1-48e0-8b5c-c94c270a45cf.png)
-
----
 
 # Resources
 
@@ -94,18 +86,28 @@ I had great struggle on ideas, and it was very inspiring to see other people wor
 -Am I Responsive? https://ui.dev/amiresponsive
 To have overview of my website and how responsive it looks
 
----
-
 # Compatibility checks
 
-Google Developer Tools is where I had the most fun on checking compatibility with different sizes of devices, and adjusting @media queries to fix bugs.
+Chrome Developer tools were used the most to see responsiveness of the website on different device sizes, and adjusting @media queries to fix bugs.
 
 Checking each time when adding new styles or applying new changes.
 ![image](https://user-images.githubusercontent.com/25457379/216524422-dd3264ba-4da5-4a5c-a8e7-29658ac1cf0d.png)
 
-Small screen devices
+Small screen devices <br>
 ![image](https://user-images.githubusercontent.com/25457379/216524522-bec2853e-dab4-4e18-9ea8-b1f96d5c32ff.png)
 
-Mobile versions
+Mobile versions <br>
 ![image](https://user-images.githubusercontent.com/25457379/216524893-fb08a150-146d-43d6-8244-d6063ed6f401.png)
 
+# Bugs
+
+Checking media queries, footer on contact page had to stick to the bottom. When checking all 
+different screen sizes on Chrome Developer tool, it showed footer sticking in the middle, or overflowing
+the content. I added @media query for smaller width size to set max-width of 375px position to unset, so this
+does not overflow the content. When Checking Nest Hub the footer was again overflowing the content. 
+I found this thread on Stackoverflow: https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height
+with option to add max-height to the existing media query, and this fixed my issue with the footer. 
+
+#Unfixed Bugs
+
+All bugs were dealt with at the time of issue arised.

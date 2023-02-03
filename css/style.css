@@ -31,7 +31,6 @@ body {
     color: #5e361b;
 }
 
-
 /* Navigation stylings */
 nav {
     position: fixed;
@@ -39,8 +38,9 @@ nav {
     width: 100%;
     z-index: 99;
     margin-bottom: 3%;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px 0 rgba(94, 54, 27, .2);
 }
+
 nav ul {
     list-style: none;
     text-align: center;
@@ -51,6 +51,12 @@ nav ul {
 nav li {
     font-size: 1.4em;
     display: inline-block;
+}
+
+nav li.active {
+    background-color: rgba(122, 101, 149, 0.4);
+    transition: .4s ease background-color;
+    padding: 5px 10px;
 }
 
 nav a {
@@ -82,10 +88,39 @@ nav a:hover {
     color: #EDE0D4;
 }
 
-.hero img {
-    width: 100%;
+#slideshow {
+    text-align: center;
+    overflow: hidden;
     height: 100vh;
-    opacity: 0.8;
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .hero img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+  
+  .slide-wrapper {
+    width: 400vw;
+    -webkit-animation: slide 18s ease infinite;
+}
+  
+.slide {
+    float: left;
+    height: 100vh;
+    width: 100vw;
+}
+
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -100vw;}
+    50% {margin-left: -100vw;}
+    60% {margin-left: -200vw;}
+    70% {margin-left: -200vw;}
+    80% {margin-left: -300vw;}
+    90% {margin-left: -300vw;}
 }
 
 .hero .hero-text {
@@ -97,6 +132,7 @@ nav a:hover {
     background-color: rgba(127, 85, 57, 0.8);
     padding: 3% 4%;
     border-radius: 140px 0;
+    z-index: 99;
 }
 
 .hero-text h1 {
@@ -130,8 +166,9 @@ nav a:hover {
     flex-direction: column;
     padding: 3% 0;
 }
+
 .top {
-    margin-top: 5% 
+    margin-top: 8%; 
 }
 
 .about-section {
@@ -299,24 +336,25 @@ input[type=submit]:hover {
 
 /*Media queries for adjusting size for responsiveness*/
 
+
 @media screen and (max-width: 375px),
     screen and (max-height: 700px) {
-    
+
     .contact-footer {
         position: unset;
     }
 }
 
-
-@media screen and (max-width: 600px) {
-
-    .top {
-        margin-top: 12%;
-    }
+/*This will target all screen sizes below 769px width*/
+@media screen and (max-width: 769px) {
 
     nav li {
         font-size: 1em;
         display: inline-block;
+    }
+
+    nav a {
+        padding: 0 8px;
     }
 
     .page-header {
@@ -354,13 +392,56 @@ input[type=submit]:hover {
 
     .about-section p {
         width: auto;
-        padding: 10px 20px;
-        font-size: 15px;
+        padding: 3% 6%;
+        font-size: 1em;
     }
 
     .about-section ul {
         width: auto;
-        margin: 20px 20px;
-        font-size: 15px;
+        margin: 4% 4%;
+        font-size: 1em;
+    }
+
+    .hero .hero-text {
+        width: 70%;
+        padding: 6% 6%;
+        border-radius: 70px 0;
+    }
+    
+    .hero-text h1 {
+        font-size: 1.8em;
+    }
+
+    #home-footer {
+        left: 30%;
+    }
+
+    .section-header {
+        width: auto;
+        font-size: 1.8em;
+        padding-top: 12px;
+    }
+    
+}
+
+/*This will target all screen sizes from 769px to 1024px width (most tablets and other small screens)*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero .hero-text {
+        width: 60%;
+        padding: 5% 4%;
+        border-radius: 140px 0;
+    }
+    
+    .hero-text h1 {
+        font-size: 2em;
+    }
+
+    .about-section p {
+        padding: 2% 6%;
+    }
+
+    form {
+        width: 70%;    
+        padding: 5% 3%;
     }
 }

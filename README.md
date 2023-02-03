@@ -108,6 +108,6 @@ does not overflow the content. When Checking Nest Hub the footer was again overf
 I found this thread on Stackoverflow: https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height
 with option to add max-height to the existing media query, and this fixed my issue with the footer. 
 
-#Unfixed Bugs
+# Unfixed Bugs
 
 All bugs were dealt with at the time of issue arised.

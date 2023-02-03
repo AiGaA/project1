@@ -63,3 +63,49 @@ Each form field is set to their types. Name for name. Email for email and Messag
 The Submit button is set to submit type. When you click on 'Submit', it will redirect to another page - Thank You page. 
 
 ![image](https://user-images.githubusercontent.com/25457379/216520151-1486ede2-11e1-48e0-8b5c-c94c270a45cf.png)
+
+---
+
+# Resources
+
+Here are some resources I used for this project:
+
+-Google Fonts https://fonts.google.com/ 
+I downloaded Lato font library, that I applied in my styles and used throughout the project
+
+-Font Awesome https://fontawesome.com/icons
+Font Awesome I used for social media icons: facebook, instagram and twitter
+
+-Relied a lot on Stackoverflow https://stackoverflow.com/
+Every other question popped up, was going through this website
+
+-Canva canva.com
+I used it to create my logo
+
+-W3 Schools https://www.w3schools.com/
+For generic information, as sometimes can forget even how to align things. It came great help on how to adjust photos
+
+-Pexels https://www.pexels.com/
+Searching good images. Most of my images are from my own archives, but this was great to search for something fresh
+
+-Slack channel #project-portfolio-1
+I had great struggle on ideas, and it was very inspiring to see other people work as well
+
+-Am I Responsive? https://ui.dev/amiresponsive
+To have overview of my website and how responsive it looks
+
+---
+
+# Compatibility checks
+
+Google Developer Tools is where I had the most fun on checking compatibility with different sizes of devices, and adjusting @media queries to fix bugs.
+
+Checking each time when adding new styles or applying new changes.
+![image](https://user-images.githubusercontent.com/25457379/216524422-dd3264ba-4da5-4a5c-a8e7-29658ac1cf0d.png)
+
+Small screen devices
+![image](https://user-images.githubusercontent.com/25457379/216524522-bec2853e-dab4-4e18-9ea8-b1f96d5c32ff.png)
+
+Mobile versions
+![image](https://user-images.githubusercontent.com/25457379/216524893-fb08a150-146d-43d6-8244-d6063ed6f401.png)
+

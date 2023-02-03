@@ -110,4 +110,4 @@ with option to add max-height to the existing media query, and this fixed my iss
 
 # Unfixed Bugs
 
-All bugs were dealt with at the time of issue arised.
+All bugs were dealt with at the time when issue arised.

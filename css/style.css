@@ -307,8 +307,27 @@ input[type=submit]:hover {
     font-size: 15px;
 }
 
-/* Footer for contact and about page */
+/*Thank you page*/
+.thank-you-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;   
+}
 
+.thank-you-page h1 {
+    font-size: 2.6em;
+    padding: 2% 0;
+}
+
+.thank-you-page p {
+    padding: 2% 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Footer for contact and about page */
 .social-icons {
     display: flex;
     justify-content: center;

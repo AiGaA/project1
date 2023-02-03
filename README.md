@@ -1,9 +1,22 @@
 # Barrel Saunas Ireland
+
+Deployed website can be viewed here: https://aigaa.github.io/project1/index.html
+
+![image](https://user-images.githubusercontent.com/25457379/216545090-f969a0a3-18e6-48c8-9818-9e1a3f1a25f8.png)
+
+# About the project
 This project is done as part of a Code Institute Full Stack Web Development course. The first project is mainly written in HTML and CSS, while making sure, it is responsive and works well across other devices with different screen sizes, such as phones, tablets, smaller screens, or larger screens. 
 
 I decided to create this project as part for my brothers business. This website shows just a small glimpse in what he is doing and what his goal is, and there is a lot potential to add all other information, work, etc. into this website in the future commits. 
 
-The landing page of this website has slideshow, that I used --webkit-animation to set timing and it is scrolling infinite and --webkit-keyframes to set slides scrolling correctly.
+## Wireframes
+
+Initially wireframes were done with pen and paper, however, at only later stage during this project, I found out the tool Balsamiq, that can be used to create
+wireframes. 
+
+## Main page
+
+The landing page of this website has a slideshow, that I used --webkit-animation to set timing and it is scrolling infinite and --webkit-keyframes to set slides scrolling.
 
 The landing page has Menu bar at the top with transparent background that allows overflow the image full screen. 
 
@@ -34,7 +47,7 @@ What it is section
 Benefits of sauna section
 ![image](https://user-images.githubusercontent.com/25457379/216518648-269a0f43-ef95-4402-8369-6f12524f256b.png)
 
-Small story about the craftsman
+Story about the craftsman
 ![image](https://user-images.githubusercontent.com/25457379/216518765-3bb2668a-5253-43b9-bbd4-009d25159f86.png)
 
 Navigation bar was set to fixed, so it follows the page when scrolling down.
@@ -57,6 +70,37 @@ Each form field is set to their types. Name for name. Email for email and Messag
 The Submit button is set to submit type. When you click on 'Submit', it will redirect to another page - Thank You page. 
 
 ![image](https://user-images.githubusercontent.com/25457379/216520151-1486ede2-11e1-48e0-8b5c-c94c270a45cf.png)
+
+# Compatibility checks
+
+Chrome Developer tools were used the most to see responsiveness of the website on different device sizes, and adjusting @media queries to fix bugs.
+
+Checking each time when adding new styles or applying new changes.
+![image](https://user-images.githubusercontent.com/25457379/216524422-dd3264ba-4da5-4a5c-a8e7-29658ac1cf0d.png)
+
+Small screen devices <br>
+![image](https://user-images.githubusercontent.com/25457379/216524522-bec2853e-dab4-4e18-9ea8-b1f96d5c32ff.png)
+
+Mobile versions <br>
+![image](https://user-images.githubusercontent.com/25457379/216524893-fb08a150-146d-43d6-8244-d6063ed6f401.png)
+
+Once the website was deployed, I did multiple checks across mobile phones and tablets. Unfortunately, I do not have any Apple products, and wasn't able to check
+on their products.
+
+Also, it was checked across multiple brwsers: Chrome, Microsoft Edge, Firefox. No issues were found there.
+
+# Bugs
+
+Checking media queries, footer on contact page had to stick to the bottom. When checking all 
+different screen sizes on Chrome Developer tool, it showed footer sticking in the middle, or overflowing
+the content. I added @media query for smaller width size to set max-width of 375px position to unset, so this
+does not overflow the content. When Checking Nest Hub the footer was again overflowing the content. 
+I found this thread on Stackoverflow: https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height
+with option to add max-height to the existing media query, and this fixed my issue with the footer. 
+
+# Unfixed Bugs
+
+All bugs were dealt with at the time when issue arised.
 
 # Resources
 
@@ -85,29 +129,3 @@ I had great struggle on ideas, and it was very inspiring to see other people wor
 
 -Am I Responsive? https://ui.dev/amiresponsive
 To have overview of my website and how responsive it looks
-
-# Compatibility checks
-
-Chrome Developer tools were used the most to see responsiveness of the website on different device sizes, and adjusting @media queries to fix bugs.
-
-Checking each time when adding new styles or applying new changes.
-![image](https://user-images.githubusercontent.com/25457379/216524422-dd3264ba-4da5-4a5c-a8e7-29658ac1cf0d.png)
-
-Small screen devices <br>
-![image](https://user-images.githubusercontent.com/25457379/216524522-bec2853e-dab4-4e18-9ea8-b1f96d5c32ff.png)
-
-Mobile versions <br>
-![image](https://user-images.githubusercontent.com/25457379/216524893-fb08a150-146d-43d6-8244-d6063ed6f401.png)
-
-# Bugs
-
-Checking media queries, footer on contact page had to stick to the bottom. When checking all 
-different screen sizes on Chrome Developer tool, it showed footer sticking in the middle, or overflowing
-the content. I added @media query for smaller width size to set max-width of 375px position to unset, so this
-does not overflow the content. When Checking Nest Hub the footer was again overflowing the content. 
-I found this thread on Stackoverflow: https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height
-with option to add max-height to the existing media query, and this fixed my issue with the footer. 
-
-# Unfixed Bugs
-
-All bugs were dealt with at the time when issue arised.

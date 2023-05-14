@@ -4,17 +4,44 @@ Deployed website can be viewed here: https://aigaa.github.io/project1/index.html
 
 ![image](https://user-images.githubusercontent.com/25457379/216545090-f969a0a3-18e6-48c8-9818-9e1a3f1a25f8.png)
 
-# About the project
+## Table of contents
+- [About](#about)
+    - [Target Audience](#audience)
+- [Design](#design)
+    - [Wireframes](#wireframes)
+        - [Main Page](#main-page)
+        - [About Page](#about-page)
+        - [Contact Us](#contact-us)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Images](#images)
+- [Technologies Used](#technologies-used)
+    - [Main Languages Used](#languages)
+- [Testing](#testing)
+    - [Compatibility Checks](#compatibility-checks)
+    - [Validator Testing](#validator-testing)
+    - [Bugs](#bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+    - [Github pages](#github-pages)
+- [Resources](#resources)
+
+## About the project <a name="about"></a>
 This project is done as part of a Code Institute Full Stack Web Development course. The first project is mainly written in HTML and CSS, while making sure, it is responsive and works well across other devices with different screen sizes, such as phones, tablets, smaller screens, or larger screens. 
 
-I decided to create this project as part for my brothers business. This website shows just a small glimpse in what he is doing and what his goal is, and there is a lot potential to add all other information, work, etc. into this website in the future commits. 
+This project is created to showcase some of the fine art of a local business that provides barell saunas across the Ireland. This website shows just a small glimpse in what they are doing and what the goal is, and there is a lot potential to add all other information, work, etc. into this website in the future commits. 
 
-## Wireframes
+### Target Audience <a name="audience"></a>
 
-Initially wireframes were done with pen and paper, however, at only later stage during this project, I found out the tool Balsamiq, that can be used to create
-wireframes. 
+The target audience for this website would be people who are passionate about various ways to improve their health and are seeking for hassle free sauna installations, and where a low-maintenance needeed to keep running such saunas. Anyone, who is looking for that SPA in their own garden, that is budget friendly and easy to maintain.
 
-## Main page
+## Design <a name="design"></a>
+### Wireframes <a name="wireframes"></a>
+
+Initially wireframes were done with pen and paper. 
+Potentially for the future projects, I would be using Balsamiq to create any wireframes. 
+
+- #### Main page <a name="main-page"></a>
 
 The landing page of this website has a slideshow, that I used --webkit-animation to set timing and it is scrolling infinite and --webkit-keyframes to set slides scrolling.
 
@@ -29,13 +56,12 @@ The logo was custom-made using canva.com. It was implemented as favicon for the 
 ![image](https://user-images.githubusercontent.com/25457379/216520531-ed382667-7f89-4fc9-96c0-d8931acc7dc8.png)
 ![image](https://user-images.githubusercontent.com/25457379/216520300-71b3526e-9b8e-45c0-9f9e-02e1be35d83a.png)
 
-
 The landing page also has a footer on the bottom and a banner with text for the page.
 
 Preview of the landing page
 ![image](https://user-images.githubusercontent.com/25457379/216521116-f7b8ec41-f8be-404a-9bfa-07efc75cd168.png)
 
-## About page
+- #### About page <a name="about-page"></a>
 
 I have added sections to describe little more about why sauna is so good and have listed benefits of it, and an actual craftsman himself. 
 
@@ -59,7 +85,7 @@ Both navigation and footer has been in bold dark color,  to make a contrast with
 
 ![image](https://user-images.githubusercontent.com/25457379/216519184-bafef3ce-cbdd-44d8-8cdb-e059a9ffa4b3.png)
 
-## Contact Us
+- #### Contact Us <a name="contact-us-page"></a>
 
 Contact Us page includes a form that would allow user to send an email to us. (No actual email has been set up this to be sent to)
 
@@ -71,7 +97,27 @@ The Submit button is set to submit type. When you click on 'Submit', it will red
 
 ![image](https://user-images.githubusercontent.com/25457379/216520151-1486ede2-11e1-48e0-8b5c-c94c270a45cf.png)
 
-# Compatibility checks
+### Color Scheme <a name="color-scheme"></a>
+
+Color scheme was designed to set more natural look for the website. Brown and tan notes throughout the website. 
+The color pallete was chosen from [Coolors](https://coolors.co/).
+![alt text](./images/color-palette.PNG "Color palette")
+
+### Typography <a name="typography"></a>
+
+For this project simple font style was chosen - Lato font downloaded from [Google Fonts](https://fonts.google.com/) 
+
+### Images <a name="images"></a>
+
+All images in this project are taken from personal files. And logo has been created using [Canva](https://www.canva.com).
+
+## Technologies Used <a name="technologies-used"></a>
+### Main Languages Used <a name="languages"></a>
+
+HTML and CSS were main languages used for this project.
+
+## Testing <a name="testing"></a>
+### Compatibility Checks <a name="compatibility"></a>
 
 Chrome Developer tools were used the most to see responsiveness of the website on different device sizes, and adjusting @media queries to fix bugs.
 
@@ -84,12 +130,14 @@ Small screen devices <br>
 Mobile versions <br>
 ![image](https://user-images.githubusercontent.com/25457379/216524893-fb08a150-146d-43d6-8244-d6063ed6f401.png)
 
-Once the website was deployed, I did multiple checks across mobile phones and tablets. Unfortunately, I do not have any Apple products, and wasn't able to check
-on their products.
+Once the website was deployed, I did multiple checks across mobile phones and tablets. Unfortunately, I do not have any Apple products, and wasn't able to check those.
 
 Also, it was checked across multiple brwsers: Chrome, Microsoft Edge, Firefox. No issues were found there.
 
-# Bugs
+### Validator Testing <a name="validator-testing"></a>
+
+
+### Bugs <a name="bugs"></a>
 
 Checking media queries, footer on contact page had to stick to the bottom. When checking all 
 different screen sizes on Chrome Developer tool, it showed footer sticking in the middle, or overflowing
@@ -98,34 +146,34 @@ does not overflow the content. When Checking Nest Hub the footer was again overf
 I found this thread on Stackoverflow: https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height
 with option to add max-height to the existing media query, and this fixed my issue with the footer. 
 
-# Unfixed Bugs
+### Unfixed Bugs <a name="unfixed-bugs"></a>
 
 All bugs were dealt with at the time when issue arised.
 
-# Resources
+## Resources <a name="resources"></a>
 
 Here are some resources I used for this project:
 
--Google Fonts https://fonts.google.com/ 
+- [Google Fonts](https://fonts.google.com/)
 I downloaded Lato font library, that I applied in my styles and used throughout the project
 
--Font Awesome https://fontawesome.com/icons
+- [Font Awesome](https://fontawesome.com/icons)
 Font Awesome I used for social media icons: facebook, instagram and twitter
 
--Relied a lot on Stackoverflow https://stackoverflow.com/
+- [Stackoverflow](https://stackoverflow.com/)
 Every other question popped up, was going through this website
 
--Canva canva.com
+- [Canva](https://www.canva.com)
 I used it to create my logo
 
--W3 Schools https://www.w3schools.com/
+- [W3 Schools](https://www.w3schools.com/)
 For generic information, as sometimes can forget even how to align things. It came great help on how to adjust photos
 
--Pexels https://www.pexels.com/
+- [Pexels](https://www.pexels.com/)
 Searching good images. Most of my images are from my own archives, but this was great to search for something fresh
 
--Slack channel #project-portfolio-1
+- Slack channel #project-portfolio-1
 I had great struggle on ideas, and it was very inspiring to see other people work as well
 
--Am I Responsive? https://ui.dev/amiresponsive
+- [Am I Responsive?](https://ui.dev/amiresponsive)
 To have overview of my website and how responsive it looks

@@ -136,6 +136,11 @@ Also, it was checked across multiple brwsers: Chrome, Microsoft Edge, Firefox. N
 
 ### Validator Testing <a name="validator-testing"></a>
 
+- The website was constantly tested during development using Chrome dev tools.
+- All links, buttons and form required fields were tested.
+- Website was tested in Chrome, Firefox and Microsoft Edge.
+- Extensive Mobile compatibilaty was checked through various devices: phones, tablets, medium and large screen devices. 
+
 - HTML
     - An error was returned when first tested website through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Faigaa.github.io%2Fproject1%2Fthankyou.html)  
     ![alt text](./images/testing/html-testing-err.PNG "Error coming up as naming conventions were not followed for image files used in the project") 
@@ -146,6 +151,14 @@ Also, it was checked across multiple brwsers: Chrome, Microsoft Edge, Firefox. N
 - CSS
     - There were no errors found when testing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faigaa.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
     ![alt text](./images/testing/css-testing.PNG "No warnings displayed when ran through W3C CSS validator.")  
+
+- Lighthouse 
+    - Lighthouse was used to test the website for Performance, Accessibility, Best Practices and SEO for desktop and mobile:
+    - Home page:  
+    ![alt text](./images/testing/lighthouse-med.PNG "Lighthouse test for home page")
+
+    - About page:  
+    ![alt text](./images/testing/lighthouse-aboutpg.PNG "Lighthouse test for the about page")
 
 ### Bugs <a name="bugs"></a>
 

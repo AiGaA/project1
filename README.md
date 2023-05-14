@@ -143,6 +143,9 @@ Also, it was checked across multiple brwsers: Chrome, Microsoft Edge, Firefox. N
     - These issues were fixed in the whole project, followed no errors (all pages has been tested)
     ![alt text](./images/testing/html-testing-no-err.PNG "No erros found")
 
+- CSS
+    - There were no errors found when testing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faigaa.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
+    ![alt text](./images/testing/css-testing.PNG "No warnings displayed when ran through W3C CSS validator.")  
 
 ### Bugs <a name="bugs"></a>
 

@@ -175,6 +175,36 @@ This thread was helpful to fix this [Stackoverflow](https://stackoverflow.com/qu
 
 All bugs were dealt with at the time when issue arised.
 
+## Deployment <a name="deployment"></a>
+
+### Github Pages <a name="github-pages"></a>
+
+Repository: [https://github.com/AiGaA/project1](https://github.com/AiGaA/project1)
+
+1. On GitHub, navigate to your site's repository. 
+2. Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+3. In the "Code and automation" section of the sidebar, click Pages.
+4. To see your published site, under "GitHub Pages", click Visit site.
+4. Your GitHub Pages site is built and deployed with a GitHub Actions workflow.
+
+The site deployed: [https://aigaa.github.io/project1/index.html](https://aigaa.github.io/project1/index.html)
+
+
+### How to Fork <a name="fork-project"></a>
+
+1. On GitHub, go to [https://github.com/AiGaA/project1](https://github.com/AiGaA/project1)
+2. In the top right, click 'Fork'.
+
+### How to Clone <a name="clone-project"></a>
+
+1. Locate the [Repository](https://github.com/AiGaA/project1)
+2. Go to the main page of the repository.
+3. Above the file list, click "Code".
+4. Select HTTPS, SSH, or GitHub CLI and then click copy to clone it.
+5. Open Git Bash.
+6. Change the location of your cloned repository.
+7. Type git clone and then paste the URL you copied.
+8. Press “Enter” to create your clone.
 
 ## Resources <a name="resources"></a>
 

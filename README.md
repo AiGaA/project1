@@ -157,21 +157,24 @@ Also, it was checked across multiple brwsers: Chrome, Microsoft Edge, Firefox. N
     - Home page:  
     ![alt text](./images/testing/lighthouse-med.PNG "Lighthouse test for home page")
 
+    Very low on performance score here. This was slightly approved after adjusting image size, and current score is: 
+    ![alt text](./images/testing/lighthouse-home-improved.PNG "Improved Lighthouse test for home page")
+
     - About page:  
     ![alt text](./images/testing/lighthouse-aboutpg.PNG "Lighthouse test for the about page")
+
 
 ### Bugs <a name="bugs"></a>
 
 Checking media queries, footer on contact page had to stick to the bottom. When checking all 
 different screen sizes on Chrome Developer tool, it showed footer sticking in the middle, or overflowing
-the content. I added @media query for smaller width size to set max-width of 375px position to unset, so this
-does not overflow the content. When Checking Nest Hub the footer was again overflowing the content. 
-I found this thread on Stackoverflow: https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height
-with option to add max-height to the existing media query, and this fixed my issue with the footer. 
+the content. I added @media query for smaller width size to set max-width of 375px position to unset, so this does not overflow the content. When Checking Nest Hub the footer was again overflowing the content. 
+This thread was helpful to fix this [Stackoverflow](https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height) with option to add max-height to the existing media query, and this fixed my issue with the footer. 
 
 ### Unfixed Bugs <a name="unfixed-bugs"></a>
 
 All bugs were dealt with at the time when issue arised.
+
 
 ## Resources <a name="resources"></a>
 
